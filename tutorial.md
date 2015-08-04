@@ -9,7 +9,10 @@ Useful links:
 - GRCh38 [annotation](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000001405.30_GRCh38.p4/GCF_000001405.30_GRCh38.p4_genomic.gff.gz)
 - GRCh38 [sequence](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000001405.30_GRCh38.p4/GCF_000001405.30_GRCh38.p4_genomic.fna.gz)
 
-# Title 1
+# Alignment
+```BASH
+STAR --genomeDir ~/afdennis/GRC28_star  --runThreadN 24 --readFilesIn ~/tan/rawdata/SRR1153470_1.fastq ~/tan/rawdata/SRR1153470_2.fastq --outFileNamePrefix STAR
+```
 ## Title 2
 ### Title 3
 
